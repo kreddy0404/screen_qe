@@ -28,8 +28,7 @@ tasks.py
 
 # Exercise
 
-1. Write an automated test suite for the application
-
+## 1. Write an automated test suite for the application which will test the application End to End ensuring that the code meeets the following:
 
 The following is the spec of what the application should do
 
@@ -59,8 +58,8 @@ Feature: Row Count
     Then the total number of rows in all the csv files should be output to the screen
 ```
 
-2. Create a Pull Request with your code for review
+## 2. Create a Pull Request with your code for review
 
-**You're free to use whatever language or framework you want just as long as
-you include the instructions on how to run your code in the Docker image in
-your Pull Request. (Bonus points if you modify the `Dockerfile` instead)**
+> **You're free to use whatever language or framework you want just as long as
+> you include the instructions on how to run your code in the Docker image in
+> your Pull Request. (Bonus points if you modify the `Dockerfile` instead)**
