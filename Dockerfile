@@ -17,3 +17,9 @@ COPY --from=data /root/data /usr/src/data
 WORKDIR /usr/src/app
 COPY . .
 CMD ["python", "./main.py --all"]
+
+# Tests Setup
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Command To Run Tests
+CMD ["pytest -v"]

@@ -1,0 +1,3 @@
+# Pytest Packages
+pytest==4.3.0
+python-dotenv==0.10.1
